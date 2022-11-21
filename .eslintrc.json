@@ -1,0 +1,24 @@
+{
+  "env": {
+    "es2022": true,
+    "node": true
+  },
+  "extends": ["eslint:recommended", "plugin:react/recommended", "prettier"],
+  "parserOptions": {
+    "ecmaFeatures": {
+      "jsx": true
+    },
+    "ecmaVersion": "latest",
+    "sourceType": "module"
+  },
+  "plugins": ["react"],
+  "rules": {
+      "no-console": "warn",
+      "linebreak-style": [
+        "error",
+        "unix"
+      ],
+      "arrow-body-style": "off",
+      "prefer-arrow-callback": "off"
+  }
+}
